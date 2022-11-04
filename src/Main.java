@@ -17,9 +17,11 @@ public class Main {
 //        heap.delete(5);
 //        heap.printHeap();
 
-        System.out.println(heap.peek());
-        heap.delete(0);
-        System.out.println(heap.peek());
+        heap.sort();
+        heap.printHeap();
+//        System.out.println(heap.peek());
+//        heap.delete(0);
+//        System.out.println(heap.peek());
 
 
     }
